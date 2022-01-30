@@ -9,7 +9,8 @@ def handle_command(input_string: str):
 
     elif input_string == "/help":
         print("Operations supported: addition + and subtraction -, multiplication *,"
-              " integer division / and parentheses (...). Variables are also supported. ")
+              " division / and parentheses (...). "
+              "Variables are also supported. Negative numbers are only supported by assigning to variables.")
     else:
         print("Unknown command")
 
